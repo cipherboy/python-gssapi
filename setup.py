@@ -265,6 +265,7 @@ setup(
         # see ext_password{,_add}.pyx for more information on this split
         extension_file('password', 'gss_acquire_cred_with_password'),
         extension_file('password_add', 'gss_add_cred_with_password'),
+        extension_file('solaris', 'gss_localname'),
     ]),
     keywords=['gssapi', 'security'],
     install_requires=install_requires
